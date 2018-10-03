@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Nopackage(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="url" value="http://magnus2.jalatechnologies.com/"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.sf.test2.MagnusXml">
+        <methods>
+          <include name="tetsXml" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sf.test2.MagnusXml -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Generating Extext-Reports">
+
+<listeners>
+  <listener class-name="Reports.ExtentReport"></listener>
+</listeners>
+
+<test name="Reports">
+
+<classes>
+<class name="com.moreTabs.MultipleTabsTest"></class>
+</classes>
+
+</test>
+</suite>

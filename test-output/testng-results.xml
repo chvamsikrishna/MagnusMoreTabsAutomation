@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18944" started-at="2018-10-01T04:21:02Z" finished-at="2018-10-01T04:21:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18944" started-at="2018-10-01T04:21:02Z" finished-at="2018-10-01T04:21:20Z">
+      <class name="com.moreTabs.LoginTest">
+        <test-method status="PASS" signature="loginIn()[pri:0, instance:com.moreTabs.LoginTest@f6c48ac]" name="loginIn" is-config="true" duration-ms="13959" started-at="2018-10-01T04:21:02Z" finished-at="2018-10-01T04:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIn -->
+        <test-method status="PASS" signature="loginData()[pri:0, instance:com.moreTabs.LoginTest@f6c48ac]" name="loginData" duration-ms="4951" started-at="2018-10-01T04:21:16Z" finished-at="2018-10-01T04:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- com.moreTabs.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

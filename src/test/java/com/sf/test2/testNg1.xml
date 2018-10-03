@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg Test cases" verbose="1" >
+  <test name="test1">
+  <groups> 
+  <run>
+  
+  </run>
+  </groups>
+  
+  
+    <classes>
+       <class name="com.sf.test2.MagnusTestNgCases"/>
+    </classes>
+  </test>
+  </suite>
